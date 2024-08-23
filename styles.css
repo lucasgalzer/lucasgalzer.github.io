@@ -1,0 +1,195 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-text h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.header-text p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Títulos das Seções */
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Seções de Conteúdo */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.job, .school {
+    margin-bottom: 15px;
+}
+
+.job h3, .school h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Estilo específico para a lista de habilidades */
+.skills ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    padding: 0;
+}
+
+.skills ul li {
+    margin: 5px 0;
+    padding-left: 15px;
+    text-indent: -15px; /* Move o texto à esquerda para alinhar */
+}
+
+.skills ul li:before {
+    content: "• "; /* Adiciona um marcador customizado antes de cada item */
+    color: #007BFF; /* Cor do marcador */
+}
+
+.skills ul {
+    margin-left: 20px;
+}
+
+/* Estilo específico para a lista de idiomas */
+.idiomas ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    padding: 0;
+}
+
+.idiomas ul li {
+    margin: 5px 0;
+    padding-left: 15px;
+    text-indent: -15px; /* Move o texto à esquerda para alinhar */
+}
+
+.idiomas ul li:before {
+    content: "• "; /* Adiciona um marcador customizado antes de cada item */
+    color: #28A745; /* Cor do marcador para diferenciar de habilidades */
+}
+
+.idiomas ul {
+    margin-left: 20px;
+}
+
+/* Links */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ddd;
+    font-size: 1.1em;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Estilo para ícones de redes sociais */
+.footer-image {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.footer-image:hover {
+    transform: scale(1.3);
+}
+.instagram-icon {
+    width: 50px; /* Aumenta o tamanho do ícone do Instagram */
+}
+.linkedin-icon{
+    width: 33px; /* Aumenta o tamanho do ícone do Linkedin */
+}
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: 350px;
+}
+.capa-icon{
+    width: 500px; /* Aumenta o tamanho do ícone do Linkedin */
+}
